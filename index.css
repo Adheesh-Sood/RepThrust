@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+body{
+    background-color: #121212;
+}
+.title{
+    color:#1DA1F2;
+    font-size:80px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-align: center;
+    text-shadow : horizontal-shadow  #1DA1F2;
+}
+.outlineTitle{
+    border-bottom: 4.5px solid #fff;
+    width:500px;
+}
+.titleDiv{
+    display:grid;
+    place-items: center;
+}
+.btnsDiv{
+    display: flex;
+    padding-right: 290px;
+    padding-bottom: 200px;
+    position:absolute;
+    top:0;
+    right:0;
+    padding-top: 570px;;
+
+}
+.btnDiv{
+    display: flex;
+    padding-right: 490px;
+    padding-bottom: 200px;
+    position:absolute;
+    top:0;
+    right:0;
+    padding-top: 450px;;
+
+}
+button{
+    margin-left: auto;
+    background-color: transparent;
+    color:rgb(84, 82, 230);
+    border: 4px solid #fff;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+    cursor: pointer;
+}
+button:hover{
+    color:#121212;
+    background:rgb(84, 82, 230)
+}
